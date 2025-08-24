@@ -17,41 +17,26 @@ The notebook demonstrates how to connect a MySQL database with Python (mysql.con
 - mysql.connector
 
 ## 📊 Analysis Covered
-🔹 Basic Queries
+### 🔹 Basic Queries
+1. List all unique cities where customers are located.
+2. Count the number of orders placed in 2017.
+3. Find total sales per product category.
+4. Calculate % of orders paid in more than 1 installment.
+5. Count customers from each state (visualized using bar chart).
 
-List all unique cities where customers are located.
+### 🔹 Intermediate Queries
+1. Number of orders per month in 2018 (bar chart).
+2. Average number of products per order grouped by city.
+3. % of total revenue contributed by each product category.
+4. Correlation between product price and purchase frequency (scatter plot).
+5. Total revenue by seller, ranked (bar chart).
 
-Count the number of orders placed in 2017.
-
-Find total sales per product category.
-
-Calculate % of orders paid in more than 1 installment.
-
-Count customers from each state (visualized using bar chart).
-
-🔹 Intermediate Queries
-
-Number of orders per month in 2018 (bar chart).
-
-Average number of products per order grouped by city.
-
-% of total revenue contributed by each product category.
-
-Correlation between product price and purchase frequency (scatter plot).
-
-Total revenue by seller, ranked (bar chart).
-
-🔹 Advanced Queries
-
-Moving average of order values per customer.
-
-Cumulative monthly sales by year.
-
-Year-over-year sales growth.
-
-Customer retention rate (within 6 months of first purchase).
-
-Top 3 customers by spending per year (visualized).
+### 🔹 Advanced Queries
+1. Moving average of order values per customer.
+2. Cumulative monthly sales by year.
+3. Year-over-year sales growth.
+4. Customer retention rate (within 6 months of first purchase).
+5. Top 3 customers by spending per year (visualized).
 
 📈 Visualizations
 
