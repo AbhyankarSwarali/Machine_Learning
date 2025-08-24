@@ -1,4 +1,4 @@
-# E-commerce Data Analysis
+# Target E-commerce Data Analysis
 
 ## 📌 Overview
 
@@ -60,22 +60,18 @@ db = mysql.connector.connect(
     password='your_password',
     database='ecommerce')
 ```
-
-Open the notebook:
-
+3. Open the notebook:
+```
 jupyter notebook your_notebook.ipynb
+```
+4. Run all cells sequentially to view results.
 
+## 📂 Outputs
+- Tabular outputs for SQL queries.
+- Visualizations for customer trends, sales growth, and category contributions.
+- Business KPIs such as retention rate, YoY growth, and revenue shares.
 
-Run all cells sequentially to view results.
+## 👩‍💻 Author
+**Abhyankar Swarali**
 
-📂 Outputs
-
-Tabular outputs for SQL queries.
-
-Visualizations for customer trends, sales growth, and category contributions.
-
-Business KPIs such as retention rate, YoY growth, and revenue shares.
-
-👩‍💻 Author
-
-Your Name
+### Happy Learning !!
