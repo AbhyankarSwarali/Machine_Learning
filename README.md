@@ -38,39 +38,28 @@ The notebook demonstrates how to connect a MySQL database with Python (mysql.con
 4. Customer retention rate (within 6 months of first purchase).
 5. Top 3 customers by spending per year (visualized).
 
-📈 Visualizations
+## 📈 Visualizations
+* Bar plots of customer distribution, monthly orders, top sellers, and top customers.
+* Scatter plot showing relationship between product price and number of orders.
+* Annotated bar charts for better readability.
 
-Bar plots of customer distribution, monthly orders, top sellers, and top customers.
+## 🔍 Insights from Visualizations
+- Customer Distribution: A few states contribute the majority of customers, indicating regional concentration of buyers.
+- Monthly Orders (2018): Certain months (e.g., holiday/festive seasons) have significantly higher order volumes, suggesting strong seasonality.
+- Top Sellers: Revenue is concentrated among a handful of sellers, highlighting seller performance inequality.
+- Product Price vs Orders: Negative correlation observed — lower-priced categories are ordered more frequently, while high-priced items sell less often.
+- Top Customers per Year: A small group of customers contributes disproportionately to annual revenue, showing the importance of high-value customers.
 
-Scatter plot showing relationship between product price and number of orders.
-
-Annotated bar charts for better readability.
-
-🔍 Insights from Visualizations
-
-Customer Distribution: A few states contribute the majority of customers, indicating regional concentration of buyers.
-
-Monthly Orders (2018): Certain months (e.g., holiday/festive seasons) have significantly higher order volumes, suggesting strong seasonality.
-
-Top Sellers: Revenue is concentrated among a handful of sellers, highlighting seller performance inequality.
-
-Product Price vs Orders: Negative correlation observed — lower-priced categories are ordered more frequently, while high-priced items sell less often.
-
-Top Customers per Year: A small group of customers contributes disproportionately to annual revenue, showing the importance of high-value customers.
-
-🚀 How to Run
-
-Ensure your MySQL database (ecommerce) is running with the required tables (customers, orders, order_items, products, payments).
-
-Update your database connection credentials in the notebook:
-
+## 🚀 How to Run
+1. Ensure your MySQL database (ecommerce) is running with the required tables (customers, orders, order_items, products, payments).
+2. Update your database connection credentials in the notebook:
+```
 db = mysql.connector.connect(
     host='127.0.0.1',
     user='root',
     password='your_password',
-    database='ecommerce'
-)
-
+    database='ecommerce')
+```
 
 Open the notebook:
 
