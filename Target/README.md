@@ -9,7 +9,8 @@ The notebook demonstrates how to connect a MySQL database with Python (mysql.con
 ## ⚙️ Requirements
 - Python 3.x
 - MySQL Database (with an ecommerce schema)
-- Python libraries:
+
+## Python libraries:
 - numpy
 - pandas
 - matplotlib
