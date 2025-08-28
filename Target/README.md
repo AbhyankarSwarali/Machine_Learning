@@ -68,7 +68,4 @@ jupyter notebook your_notebook.ipynb
 - Visualizations for customer trends, sales growth, and category contributions.
 - Business KPIs such as retention rate, YoY growth, and revenue shares.
 
-## 👩‍💻 Author
-**Abhyankar Swarali**
-
 ### Happy Learning !!
